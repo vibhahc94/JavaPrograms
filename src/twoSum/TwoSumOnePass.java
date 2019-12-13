@@ -2,10 +2,6 @@
 * Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 * You may assume that each input would have exactly one solution, and you may not use the same element twice.*/
 
-/* Solution:
-* While iterating,check if the current element's complement(target - arr[i]) is present in the HashMap, if not present add the element
-* and its index as [Key,Value] pair to the HashMap.Else if it is present, first index would be value of element's complement,
- * second index would be i*/
 
 package twoSum;
 
